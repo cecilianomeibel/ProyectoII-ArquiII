@@ -1,0 +1,25 @@
+# Archivos de salida
+*.rpt
+*.sof
+*.pof
+*.jic
+*.smsg
+*.log
+*.jdi
+*.chg
+*.sld
+
+# Archivos temporales y de compilación
+db/
+incremental_db/
+output_files/
+simulation/modelsim/
+*.bak
+*.old
+
+# Archivos de simulación
+*.vcd
+*.wlf
+
+HW/db/
+HW/*.sof
