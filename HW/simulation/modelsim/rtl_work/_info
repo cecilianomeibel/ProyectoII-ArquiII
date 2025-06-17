@@ -10,15 +10,15 @@ cModel Technology
 Z0 dC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/simulation/modelsim
 vPE
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1750136192
+Z2 !s110 1750150881
 !i10b 1
-!s100 AmQ8F4dMZDNgMjYlXYWh>1
-I_N1]X=Q>8ajO1oFc6mbN=0
+!s100 cQFMii1ND8kOdNC_B;JBD3
+IANBOCQfLYPk=4S20O;_2I0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 PE_sv_unit
 S1
 R0
-w1750134972
+w1750136756
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv
 L0 2
@@ -26,37 +26,63 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1750136192.000000
+Z5 !s108 1750150881.000000
 !s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv|
 !i113 1
 Z6 o-sv -work work
-Z7 !s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE
-Z8 tCvgOpt 0
+!s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE
+Z7 tCvgOpt 0
 n@p@e
-vPE_tb
+vsystolicArray
 R1
 R2
 !i10b 1
-!s100 kXhU;A8?A`e?XJBXT6`970
-IQWDSl4RTGlacYmLWL4Q6G3
+!s100 l;9Ma;d6C]hE_SVQN?Mj[2
+IBScMXzh8z[EJ<gZLEhH`?0
 R3
-!s105 PE_tb_sv_unit
+!s105 systolicArray_sv_unit
 S1
 R0
-w1750136174
-8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE_tb.sv
-FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE_tb.sv
+w1750146709
+8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv
+FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv
 L0 2
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE_tb.sv|
+!s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv|
 !i113 1
 R6
+Z8 !s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW
 R7
+nsystolic@array
+vsystolicArray_tb
+R1
+R2
+!i10b 1
+!s100 Fgb_OKcV:]4:_8_V<J_OD1
+I1E<]?dHcgJKZgQ?XbHYHI2
+R3
+!s105 systolicArray_tb_sv_unit
+S1
+R0
+w1750150864
+8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray_tb.sv
+FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray_tb.sv|
+!i113 1
+R6
 R8
-n@p@e_tb
+R7
+nsystolic@array_tb

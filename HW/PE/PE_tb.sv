@@ -4,7 +4,7 @@ module PE_tb();
 	logic [15:0] upData, leftData, w;
 	logic [15:0] bottomResult, rightResult;
 	
-	PE cpu(
+	PE #(16) cpu(
 		.clk(clk),
 		.rst(rst),
 		.upData(upData),

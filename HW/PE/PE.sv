@@ -1,11 +1,11 @@
 
-module PE(
+module PE #(parameter dataSize=16)(
 		input logic clk, rst,
-		input logic [15:0] upData, leftData, weight,
-		output logic [15:0] bottomResult, rightResult
+		input logic [dataSize-1:0] upData, leftData, weight,
+		output logic [dataSize-1:0] bottomResult, rightResult
 );
 
-	reg [15:0] passThrough, w;
+	reg [dataSize-1:0] passThrough, w;
 	//TODO metrics regs 
 	
 	always_ff @(posedge clk or posedge rst) 
