@@ -3,7 +3,8 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 	input logic clk, rst, enableRelu,
 	input logic [dataSize-1:0] PELeftdata[size],
 	input logic [dataSize-1:0] weights[size][size],
-	output logic [dataSize-1:0] resultRow[size]
+	output logic [dataSize-1:0] resultRow[size],
+	output logic [4:0] opArray[size*size]
 );
 
 	logic [dataSize-1:0] upData[size+1][size];
@@ -28,7 +29,8 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 						.leftData(leftData[i][j]),
 						.weight(weights[i][j]),
 						.bottomResult(resultTemp[j]),
-						.rightResult(leftData[i][j+1])
+						.rightResult(leftData[i][j+1]),
+						.operations(opArray[4*i+j])
 				);
 				end 
 				else begin
@@ -39,7 +41,8 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 						.leftData(leftData[i][j]),
 						.weight(weights[i][j]),
 						.bottomResult(upData[i+1][j]),
-						.rightResult(leftData[i][j+1])
+						.rightResult(leftData[i][j+1]),
+						.operations(opArray[4*i+j])
 				);
 				end
 			end

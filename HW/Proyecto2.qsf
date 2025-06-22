@@ -65,6 +65,17 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME systolicArray_tb -section
 set_global_assignment -name EDA_TEST_BENCH_NAME dataUnit_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id dataUnit_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME dataUnit_tb -section_id dataUnit_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME NPU_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id NPU_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME NPU_tb -section_id NPU_tb
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE SRAM/SRAM_tb.sv -section_id SRAM_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE PE/PE_tb.sv -section_id PE_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE systolicArray_tb.sv -section_id systolicArray_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Data_Unit/dataUnit_tb.sv -section_id dataUnit_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE NPU_tb.sv -section_id NPU_tb
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/ShiftRegisterChain_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/ShiftRegisterChain.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/ShiftRegister.sv
@@ -80,18 +91,8 @@ set_global_assignment -name SYSTEMVERILOG_FILE systolicArray_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/dataUnit.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/dataUnit_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/matrixTranspose.sv
+set_global_assignment -name SYSTEMVERILOG_FILE telemetry/performanceMonitor.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ReLU.sv
 set_global_assignment -name SYSTEMVERILOG_FILE NPU.sv
 set_global_assignment -name SYSTEMVERILOG_FILE NPU_tb.sv
-set_global_assignment -name EDA_TEST_BENCH_NAME NPU_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id NPU_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME NPU_tb -section_id NPU_tb
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name EDA_TEST_BENCH_FILE SRAM/SRAM_tb.sv -section_id SRAM_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE PE/PE_tb.sv -section_id PE_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE systolicArray_tb.sv -section_id systolicArray_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Data_Unit/dataUnit_tb.sv -section_id dataUnit_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE NPU_tb.sv -section_id NPU_tb
-set_global_assignment -name SYSTEMVERILOG_FILE ReLU.sv
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

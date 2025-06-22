@@ -3,7 +3,7 @@ module dataUnit #(parameter dataSize = 16, parameter matrixSize = 4) (
 	input logic clk, rst,
 	input logic [dataSize-1:0] data,
 	
-	output logic wren,
+	output logic wren, working,
 	output logic [11:0] address,
 	output logic [dataSize-1:0] weights[matrixSize][matrixSize],
 	output logic [dataSize-1:0] PEinputs[matrixSize]
@@ -99,9 +99,11 @@ module dataUnit #(parameter dataSize = 16, parameter matrixSize = 4) (
 			nextState = state; 
 			ramRead = 1'bx; 
 			address = counter-1;
+			working = 0;
 			
 			case (state) 
 				INIT: begin
+					working = 1;
 					nextState = WEIGHTS; 
 				end
 				

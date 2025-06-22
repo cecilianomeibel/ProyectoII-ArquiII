@@ -1,6 +1,7 @@
 
 module NPU (
 	input logic clk, rst, enableR,
+	output logic [15:0] totalCycles, totalReads, totalWrites, totalOp,
 	output logic [15:0] resultRow[3:0]
 );
 	logic wren, writeEn, readyData;
@@ -11,8 +12,18 @@ module NPU (
 	logic [15:0] resultData[4][4];
 	logic [15:0] PEinputs[4];
 	
+	//Control registers
+	logic dataWorking, working;
+	logic done = 0;
+	logic writing;
+	
+	//Telemetry
+	logic [4:0] Ops[16];
+	
 	assign writeEn = (wren == 0) ? 1 : 0;
 	assign memAddr = (wren == 0) ? writeAddr : address;
+	assign working = ~done; //total cycles count enable
+	assign writing = (writeEn == 1) ? ((done == 1) ? 0 : 1) : 0;
 	
 	RAM mem (
 		.clk(clk),
@@ -27,6 +38,7 @@ module NPU (
 		.rst(rst),
 		.data(data),
 		.wren(wren),
+		.working(dataWorking),
 		.address(address),
 		.weights(weights),
 		.PEinputs(PEinputs)
@@ -38,14 +50,31 @@ module NPU (
 		.enableRelu(enableR),
 		.PELeftdata(PEinputs),
 		.weights(weights),
-		.resultRow(resultRow)
+		.resultRow(resultRow),
+		.opArray(Ops)
+	);
+	
+	performanceMonitor PM(
+		.clk(clk),
+		.rst(rst),
+		.working(working),
+		.reading(wren),
+		.writing(writing),
+		.operations(Ops),
+		.totalCycles(totalCycles),
+		.totalReads(totalReads),
+		.totalWrites(totalWrites),
+		.totalOp(totalOp)
 	);
 	
 	always @(*) 
 		begin
 			if (resultRow[3] >= 0) readyData = 1;
 			if (counter == 9 && readyData) readyData = 0;
-			if (counter-9 == 16) readyData = 1'bx;
+			if (counter-9 == 16) begin 
+				readyData = 1'bx;
+				done = 1;
+			end
 		end
 	
 	always_ff @(posedge clk, negedge rst) 
