@@ -2,16 +2,13 @@ module ShiftRegisterChain_tb();
 
   logic clk,rst;
   logic [15:0] data_in;
-  logic [15:0] out0, out1, out2, out3;
+  logic [15:0] out;
 
   ShiftRegisterChain uut (
     .clk(clk),
     .rst(rst),
     .data_in(data_in),
-    .out0(out0),
-    .out1(out1),
-    .out2(out2),
-    .out3(out3)
+    .out(out)
   );
 
   always #5 clk = ~clk;

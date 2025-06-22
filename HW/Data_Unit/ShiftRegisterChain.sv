@@ -34,7 +34,7 @@ module ShiftRegisterChain (
         .clk(clk),
         .rst(rst),
         .data_in(stage2),
-        .data_out(out3)
+        .data_out(out)
     );
 
 endmodule

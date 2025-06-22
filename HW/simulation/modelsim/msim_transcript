@@ -10,35 +10,68 @@
 # Copying C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegisterChain.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:10 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegisterChain.sv 
+# -- Compiling module ShiftRegisterChain
+# 
+# Top level modules:
+# 	ShiftRegisterChain
+# End time: 03:08:10 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegister.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:10 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegister.sv 
+# -- Compiling module ShiftRegister
+# 
+# Top level modules:
+# 	ShiftRegister
+# End time: 03:08:10 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:25:52 on Jun 22,2025
+# Start time: 03:08:10 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv 
 # -- Compiling module dataUnit
 # 
 # Top level modules:
 # 	dataUnit
-# End time: 01:25:52 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 03:08:10 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/matrixTranspose.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:11 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/matrixTranspose.sv 
+# -- Compiling module matrixTranspose
+# 
+# Top level modules:
+# 	matrixTranspose
+# End time: 03:08:11 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:25:52 on Jun 22,2025
+# Start time: 03:08:11 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv 
 # -- Compiling module dataUnit_tb
 # 
 # Top level modules:
 # 	dataUnit_tb
-# End time: 01:25:52 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 03:08:11 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  dataUnit_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" dataUnit_tb 
-# Start time: 01:25:52 on Jun 22,2025
+# Start time: 03:08:11 on Jun 22,2025
 # Loading sv_std.std
 # Loading work.dataUnit_tb
 # Loading work.dataUnit
-# ** Error: (vsim-3033) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(17): Instantiation of 'RAM' failed. The design unit was not found.
+# Loading work.ShiftRegisterChain
+# Loading work.ShiftRegister
+# Loading work.matrixTranspose
+# ** Error: (vsim-3033) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(19): Instantiation of 'RAM' failed. The design unit was not found.
 #    Time: 0 ps  Iteration: 0  Instance: /dataUnit_tb File: C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv
 #         Searched libraries:
 #             C:/intelFPGA/19.1/modelsim_ase/altera/verilog/altera
@@ -54,61 +87,53 @@
 # Error loading design
 # Error: Error loading design
 #        Pausing macro execution
-# MACRO ./Proyecto2_run_msim_rtl_verilog.do PAUSED at line 12
+# MACRO ./Proyecto2_run_msim_rtl_verilog.do PAUSED at line 15
 vlog ../../SRAM/RAM.sv ../../SRAM/SRAM.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:25:56 on Jun 22,2025
+# Start time: 03:09:10 on Jun 22,2025
 # vlog -reportprogress 300 ../../SRAM/RAM.sv ../../SRAM/SRAM.v 
 # -- Compiling module RAM
 # -- Compiling module SRAM
 # 
 # Top level modules:
 # 	RAM
-# End time: 01:25:56 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 03:09:10 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -L altera_mf_ver -L lpm_ver dataUnit_tb
 # vsim -L altera_mf_ver -L lpm_ver dataUnit_tb 
-# Start time: 01:25:52 on Jun 22,2025
+# Start time: 03:08:11 on Jun 22,2025
 # Loading sv_std.std
 # Loading work.dataUnit_tb
 # Loading work.dataUnit
+# Loading work.ShiftRegisterChain
+# Loading work.ShiftRegister
+# Loading work.matrixTranspose
 # Loading work.RAM
 # Loading work.SRAM
 # Loading altera_mf_ver.altsyncram
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3015) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(17): [PCDPC] - Port size (16) does not match connection size (32) for port 'writeData'. The port definition is at: ../../SRAM/RAM.sv(4).
+# ** Warning: (vsim-3015) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(19): [PCDPC] - Port size (16) does not match connection size (32) for port 'writeData'. The port definition is at: ../../SRAM/RAM.sv(4).
 #    Time: 0 ps  Iteration: 0  Instance: /dataUnit_tb/mem File: ../../SRAM/RAM.sv
+run -all
+# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(37)
+#    Time: 505 ps  Iteration: 0  Instance: /dataUnit_tb
+# 1
+# Break in Module dataUnit_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv line 37
 add wave -position end  sim:/dataUnit_tb/clk
 add wave -position end  sim:/dataUnit_tb/data
 add wave -position end  sim:/dataUnit_tb/address
 add wave -position end  sim:/dataUnit_tb/weights
-run -all
-# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(35)
-#    Time: 165 ps  Iteration: 0  Instance: /dataUnit_tb
-# 1
-# Break in Module dataUnit_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv line 35
-run
-add wave -position end  sim:/dataUnit_tb/wren
+add wave -position end  sim:/dataUnit_tb/PEinputs
 restart -f
-# ** Warning: (vsim-3015) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(17): [PCDPC] - Port size (16) does not match connection size (32) for port 'writeData'. The port definition is at: ../../SRAM/RAM.sv(4).
+# ** Warning: (vsim-3015) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(19): [PCDPC] - Port size (16) does not match connection size (32) for port 'writeData'. The port definition is at: ../../SRAM/RAM.sv(4).
 #    Time: 0 ps  Iteration: 0  Instance: /dataUnit_tb/mem File: ../../SRAM/RAM.sv
 run -all
-# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(35)
-#    Time: 165 ps  Iteration: 0  Instance: /dataUnit_tb
+# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(37)
+#    Time: 505 ps  Iteration: 0  Instance: /dataUnit_tb
 # 1
-# Break in Module dataUnit_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv line 35
-run
-add wave -position end  sim:/dataUnit_tb/dataTest/ramRead
-restart -f
-# ** Warning: (vsim-3015) C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(17): [PCDPC] - Port size (16) does not match connection size (32) for port 'writeData'. The port definition is at: ../../SRAM/RAM.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /dataUnit_tb/mem File: ../../SRAM/RAM.sv
-run -all
-# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv(35)
-#    Time: 165 ps  Iteration: 0  Instance: /dataUnit_tb
-# 1
-# Break in Module dataUnit_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv line 35
-run
-# End time: 01:27:59 on Jun 22,2025, Elapsed time: 0:02:07
+# Break in Module dataUnit_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit_tb.sv line 37
+# WARNING: No extended dataflow license exists
+# End time: 03:10:10 on Jun 22,2025, Elapsed time: 0:01:59
 # Errors: 1, Warnings: 3

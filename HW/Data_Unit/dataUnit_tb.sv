@@ -4,6 +4,7 @@ module dataUnit_tb();
 	logic [15:0] data;
 	logic [11:0] address;
 	logic [15:0] weights[4][4];
+	logic [15:0] PEinputs[4];
 	
 	dataUnit #(.dataSize(16), .matrixSize(4)) dataTest(
 		.clk(clk),
@@ -11,7 +12,8 @@ module dataUnit_tb();
 		.data(data),
 		.wren(wren),
 		.address(address),
-		.weights(weights)
+		.weights(weights),
+		.PEinputs(PEinputs)
 	);
 	
 	RAM mem (
@@ -31,7 +33,7 @@ module dataUnit_tb();
 		#5;
 		rst = 1;
 		
-		#160;
+		#500;
 		$finish;
 	end
 
