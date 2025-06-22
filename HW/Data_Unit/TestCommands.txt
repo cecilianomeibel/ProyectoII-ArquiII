@@ -1,0 +1,2 @@
+vlog ../../SRAM/RAM.sv ../../SRAM/SRAM.v
+vsim -L altera_mf_ver -L lpm_ver dataUnit_tb

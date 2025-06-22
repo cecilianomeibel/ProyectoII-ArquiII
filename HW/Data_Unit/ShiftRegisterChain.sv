@@ -1,7 +1,7 @@
 module ShiftRegisterChain (
     input  logic clk, rst,
     input  logic [15:0] data_in,
-    output logic [15:0] out0, out1, out2, out3
+    output logic [15:0] out
 );
 
     logic [15:0] stage0, stage1, stage2;
@@ -36,10 +36,5 @@ module ShiftRegisterChain (
         .data_in(stage2),
         .data_out(out3)
     );
-
-    assign out0 = stage0;  
-    assign out1 = stage1;  
-    assign out2 = stage2;  
-	 // out3 ya viene directo del último registro
 
 endmodule
