@@ -37,7 +37,7 @@ module PE_tb();
 	
 	initial begin
 		clk = 0; 
-		rst = 1;
+		rst = 0;
 		errors = 0;
 		i = 0;                
 		upData = 16'h0000;
@@ -45,7 +45,7 @@ module PE_tb();
 		w = 16'h0001; //peso fijo definido para el PE
 		expectedBottom = 0;
 		expectedRight = 0;
-		#5; rst = 0;
+		#5; rst = 1;
 	end
 	
 	always @(negedge clk)

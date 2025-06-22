@@ -6,6 +6,9 @@ module dataUnit_tb();
 	logic [15:0] weights[4][4];
 	logic [15:0] PEinputs[4];
 	
+	logic writeEn;
+	assign writeEn = ~wren;
+	
 	dataUnit #(.dataSize(16), .matrixSize(4)) dataTest(
 		.clk(clk),
 		.rst(rst),
@@ -18,7 +21,7 @@ module dataUnit_tb();
 	
 	RAM mem (
 		.clk(clk),
-		.wren(wren),
+		.wren(writeEn),
 		.address(address),
 		.writeData(0),
 		.readData(data)

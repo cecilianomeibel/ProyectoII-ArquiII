@@ -23,7 +23,7 @@ module systolicArray_tb();
 	
 	initial begin
 		clk = 0;
-		rst = 1;
+		rst = 0;
 		matrix = '{default: '{default: 16'h0000}}; // Inicializa todo a cero
 		weights = '{default: '{default: 16'h0000}}; // Inicializa todo a cero
 
@@ -44,7 +44,7 @@ module systolicArray_tb();
 			end
 		end
 	
-		#5; rst = 0;
+		#5; rst = 1;
 	end
 	
 	always @(posedge clk) begin

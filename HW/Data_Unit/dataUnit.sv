@@ -114,7 +114,7 @@ module dataUnit #(parameter dataSize = 16, parameter matrixSize = 4) (
 				end
 					
 				LOADMATRIX: begin
-					ramRead = 1; 
+					ramRead = 1;
 					if (counter < dataCicles) begin
 						nextState = LOADMATRIX;
 					end
@@ -133,6 +133,6 @@ module dataUnit #(parameter dataSize = 16, parameter matrixSize = 4) (
 			endcase 
 		end
 		
-	assign wren = 0;
+	assign wren = ramRead;
 
 endmodule

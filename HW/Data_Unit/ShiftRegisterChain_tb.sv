@@ -15,11 +15,11 @@ module ShiftRegisterChain_tb();
 
   initial begin
     clk = 0;
-    rst = 1;
+    rst = 0;
     data_in = 16'h0000;
 
     #10;
-    rst = 0;
+    rst = 1;
 
 	 
     data_in = 16'hAAAA; 
