@@ -1,6 +1,6 @@
 
 module systolicArray #(parameter size=4, parameter dataSize=16) (
-	input logic clk, rst,
+	input logic clk, rst, enableRelu,
 	input logic [dataSize-1:0] PELeftdata[size],
 	input logic [dataSize-1:0] weights[size][size],
 	output logic [dataSize-1:0] resultRow[size]
@@ -8,6 +8,7 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 
 	logic [dataSize-1:0] upData[size+1][size];
 	logic [dataSize-1:0] leftData[size][size+1];
+	logic [dataSize-1:0] resultTemp[size];
 	
 	initial begin 
 		for(int j=0; j<size; j++) begin
@@ -26,7 +27,7 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 						.upData(upData[i][j]),
 						.leftData(leftData[i][j]),
 						.weight(weights[i][j]),
-						.bottomResult(resultRow[j]),
+						.bottomResult(resultTemp[j]),
 						.rightResult(leftData[i][j+1])
 				);
 				end 
@@ -44,6 +45,16 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 			end
 		end 
 	endgenerate
+	
+	generate 
+		for(i=0; i<4; i++) begin : reluLoop
+			ReLU relu_inst(
+				.enable(enableRelu),
+				.data(resultTemp[i]),
+				.result(resultRow[i])			
+			);
+		end
+	endgenerate 
 	//fila size-1 
 	always @(*) begin
 		for(int i=0; i<size; i++) begin : leftLoop

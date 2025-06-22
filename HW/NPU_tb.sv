@@ -1,11 +1,12 @@
 `timescale 1 ps / 1 ps
 module NPU_tb();
-	logic clk, rst;
+	logic clk, rst, enableR;
 	logic [15:0] resultRow[3:0];
 	
 	NPU npu(
 		.clk(clk),
 		.rst(rst),
+		.enableR(enableR),
 		.resultRow(resultRow)
 	);
 	
@@ -14,6 +15,7 @@ module NPU_tb();
 	initial begin 
 		clk = 0;
 		rst = 0;
+		enableR = 1;
 		#20;
 		rst = 1;
 		

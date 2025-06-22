@@ -1,6 +1,6 @@
 
 module NPU (
-	input logic clk, rst, 
+	input logic clk, rst, enableR,
 	output logic [15:0] resultRow[3:0]
 );
 	logic wren, writeEn, readyData;
@@ -35,6 +35,7 @@ module NPU (
 	systolicArray #(.dataSize(16), .size(4)) sysArray(
 		.clk(clk),
 		.rst(rst),
+		.enableRelu(enableR),
 		.PELeftdata(PEinputs),
 		.weights(weights),
 		.resultRow(resultRow)
