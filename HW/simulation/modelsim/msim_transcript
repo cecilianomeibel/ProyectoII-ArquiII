@@ -12,141 +12,174 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/SRAM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:14 on Jun 22,2025
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/SRAM.v 
 # -- Compiling module SRAM
 # 
 # Top level modules:
 # 	SRAM
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:14 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegisterChain.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:14 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegisterChain.sv 
 # -- Compiling module ShiftRegisterChain
 # 
 # Top level modules:
 # 	ShiftRegisterChain
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:14 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegister.sv 
 # -- Compiling module ShiftRegister
 # 
 # Top level modules:
 # 	ShiftRegister
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/RAM.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/RAM.sv 
 # -- Compiling module RAM
 # 
 # Top level modules:
 # 	RAM
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv 
 # -- Compiling module PE
 # 
 # Top level modules:
 # 	PE
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv 
 # -- Compiling module systolicArray
 # 
 # Top level modules:
 # 	systolicArray
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv 
 # -- Compiling module dataUnit
 # 
 # Top level modules:
 # 	dataUnit
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/matrixTranspose.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/matrixTranspose.sv 
 # -- Compiling module matrixTranspose
 # 
 # Top level modules:
 # 	matrixTranspose
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/telemetry {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/telemetry/performanceMonitor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/telemetry" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/telemetry/performanceMonitor.sv 
 # -- Compiling module performanceMonitor
 # 
 # Top level modules:
 # 	performanceMonitor
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/ReLU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/ReLU.sv 
 # -- Compiling module ReLU
 # 
 # Top level modules:
 # 	ReLU
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debouncer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:15:15 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debouncer.sv 
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:15:15 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debugger.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:15:15 on Jun 22,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debugger.sv 
+# -- Compiling module debugger
+# 
+# Top level modules:
+# 	debugger
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU.sv 
 # -- Compiling module NPU
 # 
 # Top level modules:
 # 	NPU
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW {C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW" C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv 
 # -- Compiling module NPU_tb
 # 
 # Top level modules:
 # 	NPU_tb
-# End time: 13:33:18 on Jun 22,2025, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jun 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  NPU_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" NPU_tb 
-# Start time: 13:33:18 on Jun 22,2025
+# Start time: 22:15:15 on Jun 22,2025
 # Loading sv_std.std
 # Loading work.NPU_tb
 # Loading work.NPU
 # Loading work.RAM
 # Loading work.SRAM
 # Loading altera_mf_ver.altsyncram
+# Loading work.debouncer
 # Loading work.dataUnit
 # Loading work.ShiftRegisterChain
 # Loading work.ShiftRegister
 # Loading work.matrixTranspose
 # Loading work.systolicArray
 # Loading work.performanceMonitor
+# Loading work.debugger
+# Loading work.decoder
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
@@ -161,9 +194,10 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv(30)
-#    Time: 1060 ps  Iteration: 0  Instance: /NPU_tb
+# ** Note: $finish    : C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv(45)
+#    Time: 1530 ps  Iteration: 0  Instance: /NPU_tb
 # 1
-# Break in Module NPU_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv line 30
-# End time: 13:33:56 on Jun 22,2025, Elapsed time: 0:00:38
+# Break in Module NPU_tb at C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv line 45
+add wave -position end  sim:/NPU_tb/npu/resultData
+# End time: 22:17:05 on Jun 22,2025, Elapsed time: 0:01:50
 # Errors: 0, Warnings: 1

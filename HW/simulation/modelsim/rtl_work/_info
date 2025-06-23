@@ -10,15 +10,15 @@ cModel Technology
 Z0 dC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/simulation/modelsim
 vdataUnit
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1750620798
+Z2 !s110 1750652115
 !i10b 1
-!s100 eb20GCHokFS_9E:YR9J2G1
-I9k08>WA@A75_a2mdLG0K^3
+!s100 nZaYDi7FH=5DBmY@YRBfj1
+I91?<RYIT9d]7Y^5QHX]Yo0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 dataUnit_sv_unit
 S1
 R0
-w1750614048
+w1750648629
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv
 L0 2
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1750620798.000000
+Z5 !s108 1750652115.000000
 !s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/dataUnit.sv|
 !i113 1
@@ -34,6 +34,81 @@ Z6 o-sv -work work
 Z7 !s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit
 Z8 tCvgOpt 0
 ndata@unit
+vdebouncer
+R1
+R2
+!i10b 1
+!s100 mNMHzkBzBPD;>O6_bBni63
+ICP0EH]f5_BX9S0Sa:5faY1
+R3
+!s105 debouncer_sv_unit
+S1
+R0
+w1750650002
+8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debouncer.sv
+FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debouncer.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debouncer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debouncer.sv|
+!i113 1
+R6
+Z9 !s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug
+R8
+vdebugger
+R1
+R2
+!i10b 1
+!s100 na<1fR:WbUF4a=VNZ^mRQ2
+IQDUd80ONER;Z8zlQK;NY30
+R3
+!s105 debugger_sv_unit
+S1
+R0
+w1750650328
+8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debugger.sv
+FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debugger.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debugger.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/debugger.sv|
+!i113 1
+R6
+R9
+R8
+vdecoder
+R1
+R2
+!i10b 1
+!s100 DXSW3]TTQ7mB@<^9U57Cn3
+IVCABM5i?WTPR34c]OdmI=3
+R3
+!s105 decoder_sv_unit
+S1
+R0
+w1750630821
+8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/decoder.sv
+FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/decoder.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/debug/decoder.sv|
+!i113 1
+R6
+R9
+R8
 vmatrixTranspose
 R1
 R2
@@ -64,13 +139,13 @@ vNPU
 R1
 R2
 !i10b 1
-!s100 Ek^ZQ_hTiMHJQ`4_4Ni[43
-Iz=VYN`^`4iXon8Jb0MNdW0
+!s100 f1o==][1DeJ97a@F><89f3
+I=ieQYRh274IRZ32QVH?3F2
 R3
 !s105 NPU_sv_unit
 S1
 R0
-w1750619461
+w1750651902
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU.sv
 L0 2
@@ -83,20 +158,20 @@ R5
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU.sv|
 !i113 1
 R6
-Z9 !s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW
+Z10 !s92 -sv -work work +incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW
 R8
 n@n@p@u
 vNPU_tb
 R1
 R2
 !i10b 1
-!s100 c3Ee=i;Id6b`DJGoY<KIh0
-IDYSDMbC?4iKDTh=4UjadV1
+!s100 Fd6P3b1SO5mU3`:IPnUPP2
+InJ:P@]VDDb>gKVE8j0kH:3
 R3
 !s105 NPU_tb_sv_unit
 S1
 R0
-w1750618453
+w1750651837
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv
 L0 2
@@ -109,20 +184,20 @@ R5
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/NPU_tb.sv|
 !i113 1
 R6
-R9
+R10
 R8
 n@n@p@u_tb
 vPE
 R1
 R2
 !i10b 1
-!s100 gWVG[43m6W3WM[b?]gZ7H3
-Im:X91nn19AgAHVb@:TZQ>1
+!s100 dF_N<2CzYz446[Y4^4MDF3
+IKW;fojh@TSDz;dF49Z6?A3
 R3
 !s105 PE_sv_unit
 S1
 R0
-w1750618518
+w1750640236
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/PE/PE.sv
 L0 2
@@ -142,13 +217,13 @@ vperformanceMonitor
 R1
 R2
 !i10b 1
-!s100 7<lTz^=^n89CZljfM3l]a0
-I^H=klAdJi[NPQiRM[JbGI2
+!s100 lmDeIGi[ol3M^eX6_G4<:1
+IWngo7RL<oZI@O@9GK<BMD0
 R3
 !s105 performanceMonitor_sv_unit
 S1
 R0
-w1750620765
+w1750640173
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/telemetry/performanceMonitor.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/telemetry/performanceMonitor.sv
 L0 2
@@ -213,20 +288,20 @@ R5
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/ReLU.sv|
 !i113 1
 R6
-R9
+R10
 R8
 n@re@l@u
 vShiftRegister
 R1
 R2
 !i10b 1
-!s100 k>ffK3DHOi<KT26]IXRk^1
-I:XZY2UAHIb@cj>MD:O]hc0
+!s100 n6afn[U4ihg3kVFf8SNV90
+IWPPE8d45mLkj`<n?fCCU^2
 R3
 !s105 ShiftRegister_sv_unit
 S1
 R0
-w1750581939
+w1750640262
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegister.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegister.sv
 L0 1
@@ -244,7 +319,7 @@ R8
 n@shift@register
 vShiftRegisterChain
 R1
-R2
+Z11 !s110 1750652114
 !i10b 1
 !s100 bOCglUmCgXNGzcX7BzKd>3
 Io0RAN4iQi5?R1lYM@>QUK3
@@ -260,7 +335,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z12 !s108 1750652114.000000
 !s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegisterChain.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/Data_Unit/ShiftRegisterChain.sv|
 !i113 1
@@ -269,13 +344,13 @@ R7
 R8
 n@shift@register@chain
 vSRAM
-R2
+R11
 !i10b 1
-!s100 0=^_<AlB2WH`X9F8G[Zzh1
-Ia>7Co4>O?M:f1T5mJcW^G1
+!s100 cZ9bd]a7>hWZVCkkzP5Bh0
+ImK_f:Q?UZZP^IXgifi23E0
 R3
 R0
-w1750026197
+w1750646069
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/SRAM.v
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/SRAM.v
 L0 39
@@ -283,7 +358,7 @@ R4
 r1
 !s85 0
 31
-R5
+R12
 !s107 C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/SRAM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/SRAM/SRAM.v|
 !i113 1
@@ -295,13 +370,13 @@ vsystolicArray
 R1
 R2
 !i10b 1
-!s100 M>i4Xe;^Q5d;fX?IlW0RY1
-IlCgfMKQ^dzGkAi`1R[JYN1
+!s100 LFO5dNfC3Z1OQ>odJONZ_2
+IM>TJQgiUlYU2TazQI84793
 R3
 !s105 systolicArray_sv_unit
 S1
 R0
-w1750619114
+w1750642135
 8C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv
 FC:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv
 L0 2
@@ -314,6 +389,6 @@ R5
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW|C:/Users/galva/OneDrive/Escritorio/TEC/1er_semestre_2025/Arqui2/ProyectoII-ArquiII/HW/systolicArray.sv|
 !i113 1
 R6
-R9
+R10
 R8
 nsystolic@array

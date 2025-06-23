@@ -10,8 +10,8 @@ module PE #(parameter dataSize=16)(
 	//TODO metrics regs 
 	reg [4:0] Ops;
 	
-	always_ff @(posedge clk or negedge rst) 
-		if (~rst) begin 
+	always_ff @(posedge clk or posedge rst) 
+		if (rst) begin 
 			passThrough <= 0;
 			Ops <= 0;
 		end

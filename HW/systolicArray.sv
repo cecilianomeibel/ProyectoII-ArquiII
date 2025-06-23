@@ -13,7 +13,7 @@ module systolicArray #(parameter size=4, parameter dataSize=16) (
 	
 	initial begin 
 		for(int j=0; j<size; j++) begin
-			upData[0][j] = 16'h0; //entradas de primera fila
+			upData[0][j] = 16'h0000; //entradas de primera fila
 		end
 	end
 

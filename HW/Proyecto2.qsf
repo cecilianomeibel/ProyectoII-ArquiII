@@ -68,18 +68,42 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME dataUnit_tb -section_id d
 set_global_assignment -name EDA_TEST_BENCH_NAME NPU_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id NPU_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME NPU_tb -section_id NPU_tb
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE SRAM/SRAM_tb.sv -section_id SRAM_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE PE/PE_tb.sv -section_id PE_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE systolicArray_tb.sv -section_id systolicArray_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Data_Unit/dataUnit_tb.sv -section_id dataUnit_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE NPU_tb.sv -section_id NPU_tb
+set_location_assignment PIN_AC12 -to rst
+set_location_assignment PIN_AA15 -to debugBtn
+set_location_assignment PIN_AB12 -to enableR
+set_location_assignment PIN_AA25 -to sevenSeg0[6]
+set_location_assignment PIN_AA26 -to sevenSeg0[5]
+set_location_assignment PIN_AB26 -to sevenSeg0[4]
+set_location_assignment PIN_AB27 -to sevenSeg0[3]
+set_location_assignment PIN_Y27 -to sevenSeg0[2]
+set_location_assignment PIN_AA28 -to sevenSeg0[1]
+set_location_assignment PIN_V25 -to sevenSeg0[0]
+set_location_assignment PIN_W25 -to sevenSeg1[6]
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_V23 -to sevenSeg1[5]
+set_location_assignment PIN_W24 -to sevenSeg1[4]
+set_location_assignment PIN_W22 -to sevenSeg1[3]
+set_location_assignment PIN_Y24 -to sevenSeg1[2]
+set_location_assignment PIN_Y23 -to sevenSeg1[1]
+set_location_assignment PIN_AA24 -to sevenSeg1[0]
+set_location_assignment PIN_AB22 -to sevenSeg2[6]
+set_location_assignment PIN_AB25 -to sevenSeg2[5]
+set_location_assignment PIN_AB28 -to sevenSeg2[4]
+set_location_assignment PIN_AC25 -to sevenSeg2[3]
+set_location_assignment PIN_AD25 -to sevenSeg2[2]
+set_location_assignment PIN_AC27 -to sevenSeg2[1]
+set_location_assignment PIN_AD26 -to sevenSeg2[0]
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/ShiftRegisterChain_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/ShiftRegisterChain.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/ShiftRegister.sv
-set_global_assignment -name VERILOG_FILE SRAM/SRAM.v
 set_global_assignment -name MIF_FILE SRAM/Data.mif
 set_global_assignment -name SYSTEMVERILOG_FILE SRAM/SRAM_tb.sv
 set_global_assignment -name QIP_FILE SRAM/SRAM.qip
@@ -93,6 +117,20 @@ set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/dataUnit_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Data_Unit/matrixTranspose.sv
 set_global_assignment -name SYSTEMVERILOG_FILE telemetry/performanceMonitor.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ReLU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE debug/debouncer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE debug/decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE debug/debugger.sv
 set_global_assignment -name SYSTEMVERILOG_FILE NPU.sv
 set_global_assignment -name SYSTEMVERILOG_FILE NPU_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE test.sv
+set_location_assignment PIN_V16 -to writeData[0]
+set_location_assignment PIN_W16 -to writeData[1]
+set_location_assignment PIN_V17 -to writeData[2]
+set_location_assignment PIN_V18 -to writeData[3]
+set_location_assignment PIN_W17 -to writeData[4]
+set_location_assignment PIN_W19 -to writeData[5]
+set_location_assignment PIN_Y19 -to writeData[6]
+set_location_assignment PIN_W20 -to writeData[7]
+set_location_assignment PIN_W21 -to writeData[8]
+set_location_assignment PIN_Y21 -to writeData[9]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

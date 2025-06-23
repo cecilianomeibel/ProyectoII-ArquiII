@@ -10,9 +10,9 @@ module performanceMonitor #(parameter PEamount=16)(
 	logic [15:0] cycles, reads, writes;
 	logic [15:0] Ops;
 	
-	always @(posedge clk, negedge rst) 
+	always @(posedge clk, posedge rst) 
 		begin
-			if (~rst) begin
+			if (rst) begin
 				cycles <= 0;
 				reads <= 0;
 				writes <= 0;

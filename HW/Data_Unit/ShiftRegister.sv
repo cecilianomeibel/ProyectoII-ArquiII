@@ -6,8 +6,8 @@ module ShiftRegister(
 
   logic [15:0] data;
   
-  always_ff @(posedge clk, negedge rst) begin
-      if (~rst)
+  always_ff @(posedge clk, posedge rst) begin
+      if (rst)
 	       data <= 16'b0;
 	   else 
 	       data <= data_in;  // Captura lo que entra por data_in

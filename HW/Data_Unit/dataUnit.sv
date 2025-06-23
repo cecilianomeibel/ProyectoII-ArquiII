@@ -7,11 +7,14 @@ module dataUnit #(parameter dataSize = 16, parameter matrixSize = 4) (
 	output logic [11:0] address,
 	output logic [dataSize-1:0] weights[matrixSize][matrixSize],
 	output logic [dataSize-1:0] PEinputs[matrixSize]
+	
+	//input logic trigger, 
+	//output logic [1:0] state
 	);
 	
 	logic ramRead;
 	logic [dataSize-1:0] shift1, shift2, shift3, shift4;
-	logic [1:0] state, nextState;
+	logic [1:0] nextState, state;
 	logic [5:0] counter, index, dataCicles, shiftIndex;
 	logic [dataSize-1:0] dataMatrix[matrixSize][matrixSize];
 	logic [dataSize-1:0] wTemp[matrixSize][matrixSize];
@@ -57,11 +60,17 @@ module dataUnit #(parameter dataSize = 16, parameter matrixSize = 4) (
 		.result(weights)
 	);
 	
+	//always_ff @(posedge trigger, posedge rst)
+		//if (rst) state <= INIT;
+		//else begin
+			//state <= nextState;
+		//end
+	
 
 	//weight load and counter logic 
-	always_ff @(posedge clk, negedge rst) 
+	always_ff @(posedge clk, posedge rst) 
 		begin
-			if (~rst) begin
+			if (rst) begin
 				state <= INIT;
 				counter <= 5'b00000; 
 				shiftIndex <= 5'b00000;
